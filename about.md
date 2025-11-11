@@ -22,7 +22,7 @@ permalink: /about/
       <h3 class="card-title"><i class="fas fa-bullseye"></i> Core Expertise</h3>
     </div>
     <div class="card-body">
-      <ul style="margin: 0;">
+      <ul>
         <li><strong>Full-Stack Development:</strong> .NET, C#, Angular, WPF</li>
         <li><strong>Cloud Architecture:</strong> Azure, Microservices, Serverless</li>
         <li><strong>DevOps:</strong> Docker, Kubernetes, CI/CD, IaC</li>
@@ -51,7 +51,7 @@ permalink: /about/
       <h3 class="card-title"><i class="fas fa-heart"></i> Personal Interests</h3>
     </div>
     <div class="card-body">
-      <ul style="margin: 0;">
+      <ul>
         <li>Music</li>
         <li>Cooking</li>
         <li>Jogging</li>

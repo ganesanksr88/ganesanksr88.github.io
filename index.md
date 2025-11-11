@@ -42,10 +42,10 @@ description: "Experienced Software Principal Technical Expert with 14+ years in 
 
       <!-- Download Buttons -->
       <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap;">
-        <a href="javascript:window.print()" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;">
+        <a href="{{ '/assets/documents/Ganesan_Sankaran.pdf' | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;" download>
           <i class="fas fa-file-pdf"></i> Download as PDF
         </a>
-        <a href="{{ '/GanesanSankaran_Resume.docx' | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;" download>
+        <a href="{{ '/assets/documents/Ganesan_Sankaran.docx' | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;" download>
           <i class="fas fa-file-word"></i> Download as Word
         </a>
       </div>

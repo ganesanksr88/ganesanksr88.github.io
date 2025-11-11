@@ -294,14 +294,15 @@ li {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.3);
   color: #fff;
-  padding: 8px 12px;
+  padding: 6px 8px;
   border-radius: var(--radius-sm);
   cursor: pointer;
   transition: all var(--transition-fast);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1rem;
+  font-size: 0.875rem;
+  min-width: 34px;
 }
 
 .theme-toggle-btn:hover {
@@ -506,6 +507,23 @@ li {
   color: var(--text-light);
   font-size: 0.9rem;
   margin-bottom: var(--spacing-xs);
+}
+
+/* Card Body List Styles */
+.card-body ul {
+  margin-left: var(--spacing-md);
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.card-body li {
+  margin-left: var(--spacing-md);
+  padding-left: 0;
+  margin-bottom: var(--spacing-xs);
+}
+
+.card-body li:last-child {
+  margin-bottom: 0;
 }
 
 /* Grid System */
