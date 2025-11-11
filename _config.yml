@@ -1,0 +1,78 @@
+# Site settings
+title: "Ganesan Sankaran - Software Principal Technical Expert"
+description: "Professional Software Developer specializing in .NET, Azure, and DevOps"
+url: https://gsankaran.github.io
+author: Ganesan Sankaran
+logo: /assets/images/avatar.jpg
+
+# Minimal Mistakes theme settings
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Collections
+collections:
+  resume:
+    output: true
+    permalink: /:collection/:name/
+
+# Include
+include: ["_resume"]
+
+# Exclude
+exclude: ["vendor/", ".bundle/", "node_modules/", "static/"]
+
+# Build settings
+sass:
+  sass_dir: _sass
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+      sidebar:
+        nav: "resume"
+
+# Author
+author:
+  name: Ganesan Sankaran
+  bio: Software Principal Technical Expert with expertise in .NET Core, C#, Azure, and Angular. Proven ability to lead teams and deliver innovative solutions.
+  avatar: "/assets/images/avatar.jpg"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/yourprofile"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/gsankaran"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:ganesan.ksr88@outlook.com"
+    - label: "Phone"
+      icon: "fas fa-phone"
+      url: "tel:+91 95006 62498"
+
+# Sidebar navigation
+nav_list:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Experience
+    url: /experience/
+  - title: Skills
+    url: /skills/
+  - title: Education
+    url: /education/
+  - title: Certifications
+    url: /certifications/
+
+# Header navigation
+nav_list_home:
+  - title: About
+    url: /about/
