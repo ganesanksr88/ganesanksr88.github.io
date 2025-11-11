@@ -13,8 +13,10 @@
 
   // Theme Management
   function initializeTheme() {
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    applyTheme(savedTheme);
+    const validThemes = ['light', 'dark'];
+    const savedTheme = localStorage.getItem('theme');
+    const theme = validThemes.includes(savedTheme) ? savedTheme : 'light';
+    applyTheme(theme);
   }
 
   function applyTheme(theme) {
@@ -44,8 +46,10 @@
 
   // Font Size Management
   function initializeFontSize() {
-    const savedSize = localStorage.getItem('fontSize') || 'medium';
-    applyFontSize(savedSize);
+    const validSizes = ['small', 'medium', 'large'];
+    const savedSize = localStorage.getItem('fontSize');
+    const size = validSizes.includes(savedSize) ? savedSize : 'medium';
+    applyFontSize(size);
   }
 
   function applyFontSize(size) {

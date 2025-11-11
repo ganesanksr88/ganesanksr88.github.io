@@ -72,6 +72,9 @@ permalink: /skills/
           <span class="skill-tag">Azure DevOps</span>
           <span class="skill-tag">CI/CD Pipelines</span>
           <span class="skill-tag">GitOps</span>
+          <span class="skill-tag">OpenTelemetry</span>
+          <span class="skill-tag">Monitoring & Logging</span>
+          <span class="skill-tag">Distributed Tracing</span>
         </div>
       </div>
 
@@ -110,6 +113,19 @@ permalink: /skills/
           <span class="skill-tag">Data Analytics</span>
           <span class="skill-tag">Python</span>
           <span class="skill-tag">AI Integration</span>
+        </div>
+      </div>
+
+      <!-- Architecture & Design -->
+      <div class="skill-category">
+        <h3><i class="fas fa-drafting-compass"></i> Architecture & Design</h3>
+        <div class="skill-tags">
+          <span class="skill-tag">System Design</span>
+          <span class="skill-tag">Threat Modeling</span>
+          <span class="skill-tag">Security Architecture</span>
+          <span class="skill-tag">Scalable Systems</span>
+          <span class="skill-tag">Design Patterns</span>
+          <span class="skill-tag">Solution Architecture</span>
         </div>
       </div>
 
@@ -194,6 +210,16 @@ permalink: /skills/
         </div>
         <div class="card-body">
           <p>Analytical mindset with strong problem-solving abilities. Experience debugging complex issues and optimizing performance.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <i class="fas fa-rocket" style="font-size: 2rem; color: var(--accent-blue);"></i>
+          <h3 class="card-title">Product Development</h3>
+        </div>
+        <div class="card-body">
+          <p>Full product lifecycle management from ideation to delivery. Collaborating with stakeholders to define requirements, prioritize features, and deliver customer-focused solutions.</p>
         </div>
       </div>
     </div>

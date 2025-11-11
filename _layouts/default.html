@@ -9,6 +9,12 @@
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="author" content="{{ site.author }}">
 
+  <!-- Security Headers -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://translate.google.com https://translate.googleapis.com; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://fonts.googleapis.com; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://translate.googleapis.com;">
+  <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+  <meta http-equiv="X-Content-Type-Options" content="nosniff">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
   <!-- SEO Meta Tags -->
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -19,10 +25,10 @@
   <link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
 
   <!-- Font Awesome for Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 
   <!-- Devicons for Technology Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" integrity="sha384-2puBWbgpjL+LNBqDfJ5dFxOdnQXmOPLl5RoqLdDw7CjwC6UxuqMR6cmY/NmtNfXW" crossorigin="anonymous">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
@@ -38,7 +44,7 @@
       }, 'google_translate_element');
     }
   </script>
-  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
   <!-- Google Fonts (Optional - Uncomment if needed) -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -162,7 +168,7 @@
           {% endif %}
         </ul>
         <p class="footer-text">
-          &copy; {{ 'now' | date: "%Y" }} {{ site.author }}. Built with <a href="https://jekyllrb.com/" target="_blank" style="color: #fff;">Jekyll</a>.
+          &copy; {{ 'now' | date: "%Y" }} {{ site.author }}. All rights reserved.
         </p>
         <p class="footer-text" style="font-size: 0.75rem; margin-top: 0.5rem;">
           Last updated: {{ 'now' | date: "%B %Y" }}
