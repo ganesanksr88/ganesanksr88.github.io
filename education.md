@@ -11,10 +11,10 @@ permalink: /education/
   </div>
   <div class="card-body">
     <p style="font-size: 1.125rem; margin-bottom: var(--spacing-sm);">
-      <strong><i class="fas fa-university"></i> Anna University</strong>
+      <strong><i class="fas fa-university"></i> Anna University Chennai</strong>
     </p>
     <p style="margin-bottom: var(--spacing-sm);">
-      <i class="fas fa-map-marker-alt"></i> Sri Valliputhur, India
+      <i class="fas fa-map-marker-alt"></i> AKCE College of Engineering, Srivilliputhur, Tamilnadu
     </p>
     <p style="margin-bottom: var(--spacing-sm);">
       <i class="fas fa-calendar-alt"></i> <strong>Duration:</strong> June 2006 – May 2010

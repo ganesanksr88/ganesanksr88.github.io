@@ -83,3 +83,15 @@ permalink: /about/
     <p style="margin-bottom: 0;"><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ganesansnkr/" target="_blank">linkedin.com/in/ganesansnkr</a></p>
   </div>
 </div>
+
+<div style="text-align: center; margin-top: var(--spacing-lg);">
+  <h3 style="margin-bottom: var(--spacing-md);">Download Resume</h3>
+  <div style="display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap;">
+    <a href="{{ '/assets/documents/Ganesan_Sankaran.pdf' | relative_url }}" class="btn btn-primary" download>
+      <i class="fas fa-file-pdf"></i> Download as PDF
+    </a>
+    <a href="{{ '/assets/documents/Ganesan_Sankaran.docx' | relative_url }}" class="btn btn-outline" style="color: var(--primary-blue); border-color: var(--primary-blue);" download>
+      <i class="fas fa-file-word"></i> Download as Word
+    </a>
+  </div>
+</div>

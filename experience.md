@@ -68,6 +68,7 @@ permalink: /experience/
           <div class="project-tech">
             <span class="badge badge-tech">.NET Core</span>
             <span class="badge badge-tech">C#</span>
+            <span class="badge badge-tech">Angular</span>
             <span class="badge badge-tech">SonarQube</span>
             <span class="badge badge-tech">Security</span>
             <span class="badge badge-tech">SDLC</span>
