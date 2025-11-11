@@ -1,7 +1,7 @@
 # Site settings
 title: "Ganesan Sankaran - Software Principal Technical Expert"
 description: "Professional Software Developer specializing in .NET, Azure, and DevOps"
-url: https://gsankaran.github.io
+url: https://ganesanksr88.github.io
 author: Ganesan Sankaran
 logo: /assets/images/avatar.jpg
 
@@ -49,7 +49,7 @@ author:
       url: "https://linkedin.com/in/yourprofile"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/gsankaran"
+      url: "https://ganesanksr88.github.io"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:ganesan.ksr88@outlook.com"
