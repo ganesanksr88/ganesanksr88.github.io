@@ -48,6 +48,53 @@
   --transition-medium: 0.3s ease;
 }
 
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  --primary-blue: #64b5f6;
+  --accent-blue: #42a5f5;
+  --light-blue: #90caf9;
+  --lighter-blue: #1e3a5f;
+  --dark-navy: #0d1b2a;
+
+  --background: #0d1b2a;
+  --text-primary: #e3f2fd;
+  --text-secondary: #b3d9ff;
+  --text-light: #90caf9;
+  --border-color: #1e3a5f;
+  --card-bg: #1a2942;
+  --section-bg: #152238;
+
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-hover: 0 6px 20px rgba(66, 165, 245, 0.3);
+}
+
+/* Font Size Options */
+html.font-small {
+  font-size: 14px;
+}
+
+html.font-medium {
+  font-size: 16px;
+}
+
+html.font-large {
+  font-size: 18px;
+}
+
+/* Smooth theme transitions */
+body,
+.card,
+.hero,
+.site-header,
+.site-footer,
+.timeline-card,
+.skill-category,
+.project-card {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
 /* Reset and Base Styles */
 * {
   margin: 0;
@@ -194,6 +241,80 @@ li {
   background: var(--accent-blue);
   text-decoration: none;
   transform: translateY(-2px);
+}
+
+/* Header Controls */
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+}
+
+.control-item {
+  display: flex;
+  align-items: center;
+}
+
+/* Font Size Selector */
+#font-size-select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 6px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 0.875rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  font-weight: 600;
+}
+
+#font-size-select:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+#font-size-select option {
+  color: #000;
+}
+
+#font-size-select option[value="small"] {
+  font-size: 0.75rem;
+}
+
+#font-size-select option[value="medium"] {
+  font-size: 0.875rem;
+}
+
+#font-size-select option[value="large"] {
+  font-size: 1rem;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.theme-toggle-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.05);
+}
+
+.theme-toggle-btn i {
+  transition: transform var(--transition-fast);
+}
+
+.theme-toggle-btn:hover i {
+  transform: rotate(20deg);
 }
 
 /* Hero Section */
@@ -777,6 +898,18 @@ li {
 
   .site-title {
     font-size: 1.25rem;
+  }
+
+  .header-controls {
+    width: 100%;
+    justify-content: center;
+    gap: var(--spacing-xs);
+  }
+
+  #font-size-select,
+  .theme-toggle-btn {
+    font-size: 0.875rem;
+    padding: 6px 10px;
   }
 
   .card {

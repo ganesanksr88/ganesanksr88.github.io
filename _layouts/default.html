@@ -27,10 +27,53 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
+  <!-- Google Translate -->
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en',
+        includedLanguages: 'en,de,ta,es,fr,it,pt,zh-CN,ja,ko,ar,hi',
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+        autoDisplay: false
+      }, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   <!-- Google Fonts (Optional - Uncomment if needed) -->
   <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
+
+  <style>
+    /* Google Translate widget styling */
+    #google_translate_element {
+      display: inline-block;
+    }
+    .goog-te-combo {
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: #fff;
+      padding: 6px 8px;
+      border-radius: 4px;
+      font-size: 0.875rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .goog-te-combo:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+    .goog-te-combo option {
+      color: #000;
+    }
+    /* Hide Google Translate banner */
+    .goog-te-banner-frame {
+      display: none !important;
+    }
+    body {
+      top: 0 !important;
+    }
+  </style>
 </head>
 <body>
   <!-- Header & Navigation -->
@@ -49,6 +92,24 @@
           <li><a href="{{ '/education' | relative_url }}">Education</a></li>
           <li><a href="{{ '/certifications' | relative_url }}">Certifications</a></li>
         </ul>
+        <div class="header-controls">
+          <!-- Font Size Selector -->
+          <div class="control-item">
+            <select id="font-size-select" title="Change Font Size" aria-label="Font Size">
+              <option value="small">A</option>
+              <option value="medium" selected>A</option>
+              <option value="large">A</option>
+            </select>
+          </div>
+          <!-- Theme Toggle -->
+          <div class="control-item">
+            <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+              <i id="theme-icon" class="fas fa-moon"></i>
+            </button>
+          </div>
+          <!-- Google Translate -->
+          <div class="control-item" id="google_translate_element"></div>
+        </div>
       </nav>
     </div>
   </header>
@@ -178,5 +239,8 @@
       });
     });
   </script>
+
+  <!-- Theme Switcher & Settings -->
+  <script src="{{ '/assets/js/theme-switcher.js' | relative_url }}"></script>
 </body>
 </html>
