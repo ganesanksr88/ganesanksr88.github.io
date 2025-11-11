@@ -1,78 +1,40 @@
 # Site settings
 title: "Ganesan Sankaran - Software Principal Technical Expert"
 description: "Professional Software Developer specializing in .NET, Azure, and DevOps"
-url: https://ganesanksr88.github.io
-author: Ganesan Sankaran
-logo: /assets/images/avatar.jpg
+url: "https://ganesanksr88.github.io"
 
-# Minimal Mistakes theme settings
-theme: minimal-mistakes-jekyll
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: jekyll-theme-cayman
+
+# Plugins
 plugins:
-  - jekyll-sitemap
   - jekyll-feed
 
 # Collections
 collections:
-  resume:
+  pages:
     output: true
-    permalink: /:collection/:name/
+    permalink: /:name/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
 
 # Include
-include: ["_resume"]
+include:
+  - _pages
 
-# Exclude
-exclude: ["vendor/", ".bundle/", "node_modules/", "static/"]
-
-# Build settings
-sass:
-  sass_dir: _sass
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-      author_profile: true
-      sidebar:
-        nav: "resume"
-
-# Author
+# Author information
 author:
   name: Ganesan Sankaran
-  bio: Software Principal Technical Expert with expertise in .NET Core, C#, Azure, and Angular. Proven ability to lead teams and deliver innovative solutions.
-  avatar: "/assets/images/avatar.jpg"
-  links:
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/ganesanksr88"
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:ganesan.ksr88@outlook.com"
-    - label: "Phone"
-      icon: "fas fa-phone"
-      url: "tel:+91 95006 62498"
-
-# Sidebar navigation
-nav_list:
-  - title: Home
-    url: /
-  - title: About
-    url: /about/
-  - title: Experience
-    url: /experience/
-  - title: Skills
-    url: /skills/
-  - title: Education
-    url: /education/
-  - title: Certifications
-    url: /certifications/
-
-# Header navigation
-nav_list_home:
-  - title: About
-    url: /about/
+  email: ganesan.ksr88@outlook.com
+  phone: "+91 95006 62498"
+  location: "Hosur, Tamil Nadu, India"

@@ -28,4 +28,4 @@ Music, Cooking, Jogging, and advanced technical discussions on emerging technolo
 
 - **Mobile:** +91 95006 62498
 - **Email:** ganesan.ksr88@outlook.com
-- **Location:** B20, TVS Nagar, Thally main road, Hosur 635109, India
+- **Location:** B48, TVS Nagar, Thally main road, Hosur 635109, India
