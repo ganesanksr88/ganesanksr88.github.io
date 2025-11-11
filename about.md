@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Me"
-description: "Software Principal Technical Expert with 13+ years of experience in .NET development, Azure cloud solutions, and team leadership"
+description: "Software Principal Technical Expert with 14+ years of experience in .NET development, Azure cloud solutions, and team leadership"
 permalink: /about/
 ---
 
@@ -80,6 +80,6 @@ permalink: /about/
     <p style="margin-bottom: var(--spacing-sm);"><i class="fas fa-phone"></i> <strong>Mobile:</strong> <a href="tel:+919500662498">+91 95006 62498</a></p>
     <p style="margin-bottom: var(--spacing-sm);"><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:ganesan.ksr88@outlook.com">ganesan.ksr88@outlook.com</a></p>
     <p style="margin-bottom: var(--spacing-sm);"><i class="fas fa-map-marker-alt"></i> <strong>Address:</strong> B48, TVS Nagar, Thally main road, Hosur 635109, India</p>
-    <p style="margin-bottom: 0;"><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ganesan-sankaran" target="_blank">linkedin.com/in/ganesan-sankaran</a></p>
+    <p style="margin-bottom: 0;"><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ganesansnkr/" target="_blank">linkedin.com/in/ganesansnkr</a></p>
   </div>
 </div>

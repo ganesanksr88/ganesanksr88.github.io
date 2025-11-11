@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Professional Experience"
-description: "13+ years of professional software development experience across leading technology companies"
+description: "14+ years of professional software development experience across leading technology companies"
 permalink: /experience/
 ---
 
@@ -10,7 +10,7 @@ permalink: /experience/
     <div class="section-header">
       <h1 class="section-title">Professional Experience</h1>
       <p class="section-description">
-        A journey spanning 13+ years across 6 companies, leading teams and delivering innovative solutions
+        A journey spanning 14+ years across 6 companies, leading teams and delivering innovative solutions
       </p>
     </div>
 
@@ -134,7 +134,7 @@ permalink: /experience/
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <span class="timeline-date">January 2013 – May 2014</span>
+          <span class="timeline-date">January 2014 – May 2014</span>
           <h3 class="company-name">
             <i class="fas fa-building"></i> Photon Interactive
           </h3>
@@ -160,7 +160,7 @@ permalink: /experience/
       <div class="timeline-item">
         <div class="timeline-dot"></div>
         <div class="timeline-card">
-          <span class="timeline-date">November 2010 – January 2013</span>
+          <span class="timeline-date">November 2010 – January 2014</span>
           <h3 class="company-name">
             <i class="fas fa-building"></i> Syncfusion Software Solutions
           </h3>

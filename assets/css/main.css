@@ -709,19 +709,25 @@ li {
 @media (max-width: 768px) {
   h1 { font-size: 2rem; }
   h2 { font-size: 1.5rem; }
-  .hero h1 { font-size: 2rem; }
-  .hero .subtitle { font-size: 1.25rem; }
+  h3 { font-size: 1.25rem; }
+  .hero h1 { font-size: 1.75rem; }
+  .hero .subtitle { font-size: 1.125rem; }
+  .hero p { font-size: 1rem; }
+
+  .container {
+    padding: 0 var(--spacing-sm);
+  }
 
   .timeline::before {
-    left: 30px;
+    left: 20px;
   }
 
   .timeline-item,
   .timeline-item:nth-child(odd),
   .timeline-item:nth-child(even) {
     width: 100%;
-    left: 60px;
-    padding-left: var(--spacing-md);
+    left: 50px;
+    padding-left: var(--spacing-sm);
     padding-right: 0;
     text-align: left;
   }
@@ -729,24 +735,61 @@ li {
   .timeline-dot,
   .timeline-item:nth-child(odd) .timeline-dot,
   .timeline-item:nth-child(even) .timeline-dot {
-    left: calc(-40px - var(--spacing-md));
+    left: calc(-30px - var(--spacing-sm));
   }
 
   .stats {
-    gap: var(--spacing-md);
+    gap: var(--spacing-sm);
+    flex-wrap: wrap;
+  }
+
+  .stat-item {
+    min-width: 120px;
   }
 
   .stat-number {
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+
+  .stat-label {
+    font-size: 0.75rem;
   }
 
   .grid, .grid-2, .grid-3 {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .skills-grid {
     grid-template-columns: 1fr;
   }
 
   .nav-links {
     width: 100%;
     justify-content: center;
+    gap: var(--spacing-xs);
+  }
+
+  .nav-links a {
+    padding: var(--spacing-xs);
+    font-size: 0.9rem;
+  }
+
+  .site-title {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    padding: var(--spacing-sm);
+  }
+
+  .project-tech {
+    gap: 4px;
+  }
+
+  .badge {
+    font-size: 0.7rem;
+    padding: 3px 8px;
   }
 }
 

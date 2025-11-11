@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Projects & Portfolio"
-description: "Key projects and achievements across 13+ years of software development"
+description: "Key projects and achievements across 14+ years of software development"
 permalink: /projects/
 ---
 
@@ -108,7 +108,7 @@ permalink: /projects/
       <div class="project-card">
         <div class="project-header">
           <h3><i class="fas fa-mobile-alt"></i> Mobile Apps for Fortune 500 Clients</h3>
-          <p style="margin: 0; opacity: 0.9; font-size: 0.9rem;">Photon Interactive | 2013 - 2014</p>
+          <p style="margin: 0; opacity: 0.9; font-size: 0.9rem;">Photon Interactive | 2014 - 2014</p>
         </div>
         <div class="project-body">
           <p><strong>Challenge:</strong> Develop Windows Phone and tablet apps for major brands.</p>
@@ -136,7 +136,7 @@ permalink: /projects/
       <div class="project-card">
         <div class="project-header">
           <h3><i class="fas fa-chart-line"></i> Data Visualization Component Library</h3>
-          <p style="margin: 0; opacity: 0.9; font-size: 0.9rem;">Syncfusion | 2010 - 2013</p>
+          <p style="margin: 0; opacity: 0.9; font-size: 0.9rem;">Syncfusion | 2010 - 2014</p>
         </div>
         <div class="project-body">
           <p><strong>Challenge:</strong> Create reusable data visualization components for commercial product.</p>

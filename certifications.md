@@ -44,7 +44,7 @@ permalink: /certifications/
 <div style="text-align: center; margin-top: var(--spacing-xl); padding: var(--spacing-lg); background: var(--lighter-blue); border-radius: var(--radius-lg);">
   <h3 style="margin-bottom: var(--spacing-sm);"><i class="fas fa-trophy"></i> Continuous Professional Development</h3>
   <p style="color: var(--text-secondary); margin-bottom: 0;">
-    These certifications complement 13+ years of hands-on experience with .NET, Azure, DevOps, and team leadership.
+    These certifications complement 14+ years of hands-on experience with .NET, Azure, DevOps, and team leadership.
     Committed to staying current with industry best practices and emerging technologies through continuous learning
     and practical application in real-world projects.
   </p>

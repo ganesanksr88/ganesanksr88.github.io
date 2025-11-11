@@ -10,7 +10,7 @@ permalink: /skills/
     <div class="section-header">
       <h1 class="section-title">Skills & Technologies</h1>
       <p class="section-description">
-        A comprehensive overview of technical skills and expertise developed over 13+ years
+        A comprehensive overview of technical skills and expertise developed over 14+ years
       </p>
     </div>
 
@@ -22,11 +22,11 @@ permalink: /skills/
       <div class="skill-category">
         <h3><i class="fas fa-server"></i> Backend Development</h3>
         <div class="skill-tags">
-          <span class="skill-tag proficiency-high">C#</span>
-          <span class="skill-tag proficiency-high">.NET Core</span>
-          <span class="skill-tag proficiency-high">ASP.NET</span>
-          <span class="skill-tag proficiency-high">Web API</span>
-          <span class="skill-tag proficiency-high">Entity Framework</span>
+          <span class="skill-tag">C#</span>
+          <span class="skill-tag">.NET Core</span>
+          <span class="skill-tag">ASP.NET</span>
+          <span class="skill-tag">Web API</span>
+          <span class="skill-tag">Entity Framework</span>
           <span class="skill-tag">Microservices</span>
           <span class="skill-tag">REST APIs</span>
           <span class="skill-tag">gRPC</span>
@@ -41,7 +41,7 @@ permalink: /skills/
           <span class="skill-tag">TypeScript</span>
           <span class="skill-tag">JavaScript</span>
           <span class="skill-tag">HTML5/CSS3</span>
-          <span class="skill-tag proficiency-high">WPF</span>
+          <span class="skill-tag">WPF</span>
           <span class="skill-tag">XAML</span>
           <span class="skill-tag">MVVM</span>
         </div>
@@ -51,9 +51,9 @@ permalink: /skills/
       <div class="skill-category">
         <h3><i class="fas fa-cloud"></i> Cloud Platforms</h3>
         <div class="skill-tags">
-          <span class="skill-tag proficiency-high">Microsoft Azure</span>
-          <span class="skill-tag proficiency-high">Azure App Service</span>
-          <span class="skill-tag proficiency-high">Azure Functions</span>
+          <span class="skill-tag">Microsoft Azure</span>
+          <span class="skill-tag">Azure App Service</span>
+          <span class="skill-tag">Azure Functions</span>
           <span class="skill-tag">Azure Storage</span>
           <span class="skill-tag">Azure Monitor</span>
           <span class="skill-tag">Azure DevOps</span>
@@ -64,10 +64,10 @@ permalink: /skills/
       <div class="skill-category">
         <h3><i class="fas fa-infinity"></i> DevOps & CI/CD</h3>
         <div class="skill-tags">
-          <span class="skill-tag proficiency-high">Docker</span>
+          <span class="skill-tag">Docker</span>
           <span class="skill-tag">Kubernetes</span>
-          <span class="skill-tag proficiency-high">Azure Bicep</span>
-          <span class="skill-tag proficiency-high">Terraform</span>
+          <span class="skill-tag">Azure Bicep</span>
+          <span class="skill-tag">Terraform</span>
           <span class="skill-tag">Jenkins</span>
           <span class="skill-tag">Azure DevOps</span>
           <span class="skill-tag">CI/CD Pipelines</span>
@@ -79,10 +79,10 @@ permalink: /skills/
       <div class="skill-category">
         <h3><i class="fas fa-database"></i> Databases</h3>
         <div class="skill-tags">
-          <span class="skill-tag proficiency-high">SQL Server</span>
-          <span class="skill-tag proficiency-high">PostgreSQL</span>
-          <span class="skill-tag proficiency-high">Redis</span>
-          <span class="skill-tag proficiency-high">NoSQL</span>
+          <span class="skill-tag">SQL Server</span>
+          <span class="skill-tag">PostgreSQL</span>
+          <span class="skill-tag">Redis</span>
+          <span class="skill-tag">NoSQL</span>
           <span class="skill-tag">MongoDB</span>
           <span class="skill-tag">Cosmos DB</span>
           <span class="skill-tag">Entity Framework</span>
@@ -93,7 +93,7 @@ permalink: /skills/
       <div class="skill-category">
         <h3><i class="fas fa-exchange-alt"></i> Messaging & Integration</h3>
         <div class="skill-tags">
-          <span class="skill-tag proficiency-high">RabbitMQ</span>
+          <span class="skill-tag">RabbitMQ</span>
           <span class="skill-tag">Azure Service Bus</span>
           <span class="skill-tag">Event-Driven Architecture</span>
           <span class="skill-tag">Message Queues</span>
@@ -128,13 +128,6 @@ permalink: /skills/
       </div>
     </div>
 
-    <!-- Proficiency Legend -->
-    <div style="text-align: center; margin-top: var(--spacing-lg); padding: var(--spacing-md); background: var(--lighter-blue); border-radius: var(--radius-md);">
-      <p style="margin: 0;">
-        <span class="skill-tag proficiency-high" style="margin: 0 0.5rem;">Expert Level</span>
-        <span class="skill-tag" style="margin: 0 0.5rem;">Proficient</span>
-      </p>
-    </div>
   </div>
 </div>
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ganesan Sankaran - Software Principal Technical Expert"
-description: "Experienced Software Principal Technical Expert with 13+ years in .NET development, Azure cloud solutions, and DevOps"
+description: "Experienced Software Principal Technical Expert with 14+ years in .NET development, Azure cloud solutions, and DevOps"
 ---
 
 <!-- Hero Section -->
@@ -11,12 +11,12 @@ description: "Experienced Software Principal Technical Expert with 13+ years in 
       <img src="{{ '/myprofile.png' | relative_url }}" alt="Ganesan Sankaran" class="profile-photo">
       <h1>Ganesan Sankaran</h1>
       <p class="subtitle">Software Principal Technical Expert</p>
-      <p>Experienced technical leader with 13+ years in .NET development, Azure cloud solutions, and DevOps. Proven track record of leading cross-functional teams, delivering innovative SaaS products, and implementing AI-driven features.</p>
+      <p>Experienced technical leader with 14+ years in .NET development, Azure cloud solutions, and DevOps. Proven track record of leading cross-functional teams, delivering innovative SaaS products, and implementing AI-driven features.</p>
 
       <!-- Stats -->
       <div class="stats">
         <div class="stat-item">
-          <span class="stat-number">13+</span>
+          <span class="stat-number">14+</span>
           <span class="stat-label">Years Experience</span>
         </div>
         <div class="stat-item">
@@ -38,6 +38,16 @@ description: "Experienced Software Principal Technical Expert with 13+ years in 
         <a href="{{ '/experience' | relative_url }}" class="btn btn-primary">View Experience</a>
         <a href="{{ '/projects' | relative_url }}" class="btn btn-outline">View Projects</a>
         <a href="mailto:ganesan.ksr88@outlook.com" class="btn btn-outline">Contact Me</a>
+      </div>
+
+      <!-- Download Buttons -->
+      <div style="margin-top: var(--spacing-md); display: flex; gap: var(--spacing-sm); justify-content: center; flex-wrap: wrap;">
+        <a href="javascript:window.print()" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;">
+          <i class="fas fa-file-pdf"></i> Download as PDF
+        </a>
+        <a href="{{ '/GanesanSankaran_Resume.docx' | relative_url }}" class="btn btn-outline" style="font-size: 0.9rem; padding: 0.625rem 1.25rem;" download>
+          <i class="fas fa-file-word"></i> Download as Word
+        </a>
       </div>
     </div>
   </div>
