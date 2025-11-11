@@ -1,7 +1,8 @@
 # Site settings
 title: "Ganesan Sankaran - Software Principal Technical Expert"
-description: "Professional Software Developer specializing in .NET, Azure, and DevOps"
+description: "Experienced Software Principal Technical Expert with 13+ years in .NET development, Azure cloud solutions, and DevOps"
 url: "https://ganesanksr88.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
@@ -26,14 +27,23 @@ exclude:
   - .sass-cache/
   - .jekyll-cache/
   - gemfiles/
+  - README.md
 
 # Include
 include:
   - _pages
 
 # Author information
-author:
-  name: Ganesan Sankaran
-  email: ganesan.ksr88@outlook.com
-  phone: "+91 95006 62498"
-  location: "Hosur, Tamil Nadu, India"
+author: Ganesan Sankaran
+email: ganesan.ksr88@outlook.com
+phone: "+91 95006 62498"
+location: "Hosur, Tamil Nadu, India"
+
+# Social media usernames
+github_username: ganesanksr88
+linkedin_username: ganesan-sankaran
+# twitter_username: your_twitter_username  # Uncomment and add if available
+
+# SEO
+lang: en
+timezone: Asia/Kolkata
